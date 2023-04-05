@@ -1,0 +1,53 @@
+/* Global styles */
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  line-height: 1;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+/* QR code container */
+.qr-code-container {
+  max-width: 1440px;
+  margin: 100px;
+}
+
+/* QR code card */
+.qr-code-card {
+  max-width: 280px;
+  border: 1px solid white;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+
+/* QR code image */
+.qr-code-image {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+/* Text content */
+.qr-code-content {
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+/* Heading */
+.qr-code-heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 15px 15px;
+}
+
+/* Paragraph */
+.qr-code-paragraph {
+  font-size: 15px;
+  opacity: 50%;
+}
